@@ -1,0 +1,18 @@
+$icon-font-path: '../fonts/';
+@import "../fonts/icons/css/font.css"; 
+
+$grid-gutter-width: 20px;
+$container-large-desktop: (1010px + $grid-gutter-width);
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "bower_components/font-awesome/scss/font-awesome.scss";
+// endbower
+
+@import "_helpers";
+@import "_header";
+@import "_footer";
+@import "_search";
+@import "_news";
+@import "_gallery";
+@import "_site_news";
