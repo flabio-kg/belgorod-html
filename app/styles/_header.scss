@@ -115,6 +115,7 @@
 				background-color: #efc6ab;
 				border-radius: 2px;
 				transition: all .3s ease;
+				margin-left: 3px;
 				&:hover{
 					&:first-child{
 						background-color: #1da1f2;
@@ -303,6 +304,12 @@
 				background-color: #a7271c;
 				box-shadow: 0 8px 16px 0 rgba(167,39,28,.44);
 				color: #fff;
+			}
+			.icon-i4{
+				font-size: 12px;
+				font-weight: bold;
+				float: left;
+				margin-left: 15px;
 			}
 		}
 	}
